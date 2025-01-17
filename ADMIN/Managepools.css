@@ -1,0 +1,100 @@
+.pools-management {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.add-pool-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-pool-btn:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.pools-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.pools-table th,
+.pools-table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.pools-table th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.pools-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pools-table tr:hover {
+  background-color: #e8f6ff;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+@media (max-width:480px){
+  .pools-management{
+      width: 700px;
+  }
+}

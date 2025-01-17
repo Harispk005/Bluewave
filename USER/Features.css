@@ -1,0 +1,159 @@
+.features {
+    display: flex;
+    justify-content: center;  
+    margin-top: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    height: 55vh ; 
+    padding: 20px; 
+    background-color: rgb(163, 190, 213);
+    border-radius: 350px 350px 0 0;
+    overflow: hidden; 
+    box-sizing: border-box; 
+}
+
+.fea-img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.fea-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(40, 0, 0);
+    text-align: center;
+    padding: 10px;
+   height: 100px;
+   margin-bottom: 120px;
+}
+.fea-hd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.feature-button {
+    padding: 8px 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.fbtn {
+    padding: 8px 16px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s ease; 
+}
+
+
+.feature-button:hover {
+    background-color: black; 
+}
+
+.fbtn:hover {
+    background-color: black; 
+}
+
+
+.ig{
+   
+    width: 50%;
+    height: 65px;
+}
+.mg{
+    width: 53%;
+    height: 70px;
+}
+.gmi{
+    width: 48%;
+    height: 65px;
+
+}
+.hdr{
+ 
+    text-align: center;
+    margin-top: 100px;
+}
+.rdh{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+
+@media (max-width: 1024px) {
+    .features {
+        margin-top: 20px; 
+    }
+
+    .rdh {
+        font-size: 30px; 
+    }
+
+    .feat {
+        width: 40vw; 
+        padding: 15px;
+    }
+
+    .fea-img img {
+        width: 70%; 
+    }
+
+    .fea-hd {
+        font-size: 14px; 
+    }
+
+    .feature-button, .fbtn {
+        width: 100%; 
+    }
+
+}
+@media (max-width: 480px) {
+    .features {
+        margin-top: 20px; 
+    }
+
+    .rdh {
+        font-size: 30px; 
+    }
+
+    .feat {
+        width: 90vw; 
+        padding: 15px;
+    }
+
+    .fea-img img {
+        width: 70%; 
+    }
+
+    .fea-hd {
+        font-size: 14px; 
+    }
+
+    .feature-button, .fbtn {
+        width: 100%; 
+    }
+}
+

@@ -1,0 +1,52 @@
+/* Remove default margin from body */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.viewbooking {
+    background: linear-gradient(to left, #00d2ff, #ffffff);   
+    min-height: 100vh;
+    
+}
+
+.viewbookinghd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 20px 0; 
+    color: black;
+}
+
+
+.viewbookingcard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.viewbookingformdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+   
+}
+.paynow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}
+.paynow:hover{
+    background-color: darkblue;
+    color: white;
+}

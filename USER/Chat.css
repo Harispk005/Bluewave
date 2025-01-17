@@ -1,0 +1,103 @@
+.chat{
+    background-image: linear-gradient(to bottom, #00d2ff, #ffffff);
+    height: 100vh;  /* Full viewport height */
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center; 
+   
+}
+
+.chatcontainer{
+    height:90vh;
+    width: 900px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+   
+}
+.chatbox{
+   background-color: rgb(234, 231, 175);
+    width: 100%;
+    height:50px;
+    border-radius: 10px 10px 0px 0px; 
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(105, 93, 93);
+}
+.messagebox {
+  background-image: linear-gradient(to bottom, rgb(234, 231, 175), #ffffff);
+  flex-grow: 1;
+  padding: 10px;
+  position: relative;
+  height: 79%;
+  overflow-y: auto;  /* Allow scrolling if the messages overflow */
+}
+
+.reciving, .sending {
+  max-width: 40%; 
+  background-color: #e1f7d5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.reciving {
+  background-color: #d1ecf1;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.sending {
+  background-color: #e1f7d5;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+
+.sendbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+}
+
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bbv {
+    width: 100%;
+    height: 45px;
+    padding-right: 50px; 
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  
+  }
+  
+  .vvb {
+    position: absolute;
+    right: 0px;
+    height: 45px;
+    width: 60px;
+    background:none;
+    border: none;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  .vvb:hover {
+    background:none;
+  }
+  

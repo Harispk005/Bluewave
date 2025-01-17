@@ -1,0 +1,99 @@
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.edit-modal {
+    background: transparent;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    position: relative;
+    height: auto; 
+    max-height: 800px; 
+    overflow-y: scroll;
+}
+
+
+.edit-modal::-webkit-scrollbar {
+    display: none;
+}
+
+
+.edit-modal {
+    scrollbar-width: none; 
+}
+
+
+
+
+.close-button {
+    position: absolute;
+    top: -10px;
+    right: 1px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+.close-button:hover {
+    background: none;
+}   
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding: 10px;
+    border: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #333;
+}
+
+
+.update-button {
+    padding: 10px 20px;
+    background-color: #4f0404;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.update-button:hover {
+    background-color: #280000;
+}

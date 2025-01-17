@@ -1,0 +1,250 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.msd {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.ms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(5, 3, 64, 0.937);
+    height: 30vh;
+    width: 570px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.ms:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6); 
+}
+.ms1hd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+}
+.ms1p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+    color: white;
+}
+.admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px; 
+    margin-top: 15px;
+    margin-left: 55px;
+    color: white;
+}
+.ms2-ms3-container {
+    display: flex; 
+    gap: 20px; 
+}
+
+.ms2, .ms3 {
+    background-color: rgba(5, 3, 64, 0.937);
+    height: 60vh;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.ms2:hover, .ms3:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6); 
+}
+
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    height: 200px;
+    margin-top: 40px;
+}
+
+.usercount {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.ffa {
+    color: rgba(255, 255, 255, 0.63);
+   
+}
+
+.viewusers {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    background: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+.viewusers:hover {
+    background: none;
+}
+.rsd {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rs1-rs2-container {
+    display: flex;
+    gap: 20px;
+}
+
+.rs1, .rs2 {
+    background-color: rgba(5, 3, 64, 0.937);
+
+    height: 40vh;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+.rsqq {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    background-color: rgba(5, 3, 64, 0.937);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+  }
+  
+.rsqq:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6); 
+}
+
+.rs1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.rs1:hover, .rs2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6); 
+}
+
+.kks {
+    height: 100px;
+    background-color: transparent;
+    border: none; 
+    margin: 10px 0; 
+}
+.ssk{
+    height: 100px;
+    background-color: transparent;
+    border: none; 
+    margin: 10px 0;  
+}
+
+.viewcomplaints {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    border: none;
+}
+.viewcomplaints:hover {
+    background: none;
+}
+.mngc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 210px;
+    margin-right: 11px;
+    
+    color: rgba(255, 255, 255, 0.63);
+}
+.compcount{
+  background: none;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.63);
+}
+.compcount:hover {
+  background: none;
+}
+@media (max-width: 480px) {
+    
+    .ms{
+        height: 210px;
+        
+    }
+  
+    .admin{
+        margin-left: 70px;
+        
+    }
+    .user-container{
+        margin-top: 70px;
+        width: 250px;
+    }
+    .rs1, .rs2{
+        margin-left: 480px;
+     
+    }
+    .rs1-1{
+        width: 200px;
+    }
+    .rs1-rs2-container {
+        gap: 5px; 
+    }
+    
+    .rsqq{
+        margin-left: 450px;
+        width: 600px;
+        height: 300px;
+    }
+
+  
+    .viewusers{
+        margin-bottom: 10px;
+    }
+
+ 
+}

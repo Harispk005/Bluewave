@@ -1,0 +1,64 @@
+.dsa{
+    background-color: aliceblue;
+}
+.bookslots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%; 
+}
+
+.ner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 900px; 
+    max-width: none; 
+    height: 55vh; 
+    background-color:rgba(17, 16, 16, 0.689);
+    
+    border-radius: 20px;
+
+  
+}
+.ner label {
+    color: #f0f0f0; 
+    margin-bottom: 8px; 
+    
+}
+.ner .div1 {
+    margin-left: 20px;
+    
+}
+
+.ner .in1 {
+    border-radius: 50px;
+    width: 400px; 
+    height: auto;
+}
+
+.ner .dt {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ner .bookyourslots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.ner .in2, .ner .in3 {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+}

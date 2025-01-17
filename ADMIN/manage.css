@@ -1,0 +1,12 @@
+.sidebar {
+    min-width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+    padding: 15px;
+  }
+  
+  .content {
+    padding: 20px;
+    width: 100%;
+  }
+  

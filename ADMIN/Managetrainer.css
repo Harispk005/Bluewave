@@ -1,0 +1,144 @@
+
+.manage-users {
+    width: 100%;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.admin-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.add-user-btn {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.add-user-btn:hover {
+    background-color: black;
+}
+
+.table-container {
+    overflow-x: auto;
+    width: 100%; 
+}
+
+
+.user-table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    table-layout: auto; 
+}
+
+.user-table th, .user-table td {
+    text-align: left;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    word-wrap: break-word; /* Prevent text overflow */
+    white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+.user-table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pending-invitation {
+    background-color: #fff7e0;
+    color: #f39c12;
+}
+
+.pending-invitation td {
+    color: #f39c12;
+}
+
+.action-icons {
+    text-align: right;
+    cursor: pointer;
+}
+
+.action-icons:hover {
+    color: black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.pagination span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination .page-number {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-number:hover {
+    background-color: #0056b3;
+}
+.trai{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.EEdd{
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    color: blue;
+}
+.EEdd:hover{
+    background-color:blue;
+    color: white;
+}
+@media (max-width:480px){
+    .manage-users{
+        width: 700px;
+    }
+}

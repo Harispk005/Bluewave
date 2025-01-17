@@ -1,0 +1,31 @@
+.bghom{
+    height: 120vh;
+    background-image: linear-gradient(to bottom, #00d2ff, #ffffff);
+    width: auto;
+}
+@media (max-width: 480px) {
+   .bghom{
+    background-image: linear-gradient(to bottom, #00d2ff, #ffffff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+
+   }
+
+}
+@media (max-width: 768px) {
+    .bghom{
+     background-image: linear-gradient(to bottom, #00d2ff, #ffffff);
+     
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     
+ 
+ 
+    }
+ 
+ }
+

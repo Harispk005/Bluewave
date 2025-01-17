@@ -1,0 +1,144 @@
+/* Footer.css */
+.footer {
+    background-color:#333;
+    color: #eee;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    margin-top: 200px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    width: 20%;
+    text-align: left;
+    
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section  p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #ccc;
+    cursor: pointer;
+    
+
+  }
+
+  .footer-sectioncontact  p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #ccc;
+    cursor: pointer;
+    
+
+  }
+
+
+  .footer-sectioncontact p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section a:hover {
+    color: #fff;
+  }
+
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .socials a {
+    color: #ccc;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .socials a:hover {
+    color: #1E90FF;
+  }
+  .footer-sectionterms p{
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .span{
+    font-size: 20px;
+    color: #aaa;
+    cursor: unset;
+  }
+  .rt{
+    font-size: 20px;
+    color: #aaa;
+  }
+
+
+  
+  @media (max-width: 480px) {
+    .footer {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Stack footer sections vertically */
+        align-items: center; /* Center content */
+        padding: 0; /* Remove padding */
+    }
+
+    .footer-section {
+        width: 90%; /* Take up most of the screen width */
+        text-align: center; /* Center-align text */
+        margin-bottom: 20px;
+    }
+
+    .footer-section h2 {
+        font-size: 24px; /* Slightly larger font for heading */
+    }
+
+    .footer-section p {
+        font-size: 14px; /* Increase font size for readability */
+    }
+
+    .footer-bottom {
+        flex-direction: column; /* Stack the footer bottom vertically */
+        align-items: center; /* Center align content */
+    }
+
+    .footer-bottom p {
+        font-size: 16px; /* Larger font size for copyright */
+    }
+
+    .socials a {
+        font-size: 28px; /* Larger social media icons */
+        margin: 5px;
+    }
+
+    .span, .rt {
+        font-size: 18px; /* Adjust font sizes for smaller screens */
+    }
+}

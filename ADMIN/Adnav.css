@@ -1,0 +1,111 @@
+/* Admin Home */
+.adminhome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #37C3B8;
+
+    background-size: cover;
+    height: 20px; /* Increased height for better visibility */
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.adminhead {
+    font-family: 'Copperplate Gothic', Papyrus, fantasy;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none; /* Removes the default outline */
+}
+
+.adminhead:focus {
+    outline: none; /* Ensure no outline appears when the button is focused */
+}
+
+.adminhead:hover {
+   
+    background: none;
+    color: black;
+    cursor: default;
+}
+/* Admin Buttons */
+.adminbtn {
+    outline: none;
+    border: none;
+    padding: 8px 12px; /* Increased padding for better UI */
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 10px;
+}
+
+.adminbtn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black; 
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Increased opacity for better contrast */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect for sidebar */
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Sidebar buttons */
+.sidebar-button {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Hover effect with more visible background */
+    color: skyblue; /* Change text color on hover */
+}
+
+/* Hover and transition effect for buttons */
+.sidebar-button svg {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Optional: If you want the sidebar to slide in/out */
+.sidebar-hidden {
+    transform: translateX(100%); /* Hide sidebar off-screen */
+}
+
+.sidebar-visible {
+    transform: translateX(0); /* Slide in sidebar */
+}

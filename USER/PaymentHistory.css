@@ -1,0 +1,61 @@
+.hist{
+    background-image: linear-gradient(to bottom, #00d2ff, #ffffff);
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.histhd{
+text-align: center;
+text-decoration: underline;
+
+
+}
+
+.histcard{
+    margin-top: 40px;
+   background-color: aliceblue;
+   height: auto;
+   width: 90%;
+   margin-left: 75px;
+   border-radius: 10px;
+   padding: 10px;
+
+
+}
+.grdgrd{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.rtrt{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.invoicebtn{
+    position: relative;
+    margin-top: 60px;
+    border-radius: 50px;;
+    border: none;
+    background-color:grey;
+    color: aliceblue;
+    height: 50px;
+    width: 200px;
+}
+.invoicebtn:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px grey;
+}
+
+
+

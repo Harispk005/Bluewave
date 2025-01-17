@@ -1,0 +1,166 @@
+
+.ushome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+Australia&display=swap');
+.uhead {
+     font-family: 'Playwrite Australia', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+ 
+}
+
+
+
+.center-buttons {
+    display: flex;
+    gap: 15px; 
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1px;
+}
+
+.navrightbtn {
+  display: flex;
+  position: absolute;
+  right: 20px;
+}
+
+.ubtn {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  position: relative;
+}
+.tn{
+    background: none;
+    outline: none;
+    padding: 7px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.tn:hover {
+    color: darkblue;
+    background: none;
+    cursor: default;
+}
+.uhead:hover{
+    background: none;
+}
+.ubtn:hover {
+    background: none;
+    transform: translateY(-2px); 
+}
+.logbtn{
+    background: none;
+}
+.logbtn:hover{
+    background: none;
+}  
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.800);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  animation: slideIn 0.3s forwards;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+  gap: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  color: lightblue;
+}
+  
+  .sidebar ul li:hover {
+    text-decoration: underline;
+  }
+  .cl{
+    color: aliceblue;
+    background: none;
+    font-size: large;
+    justify-content: center;
+    border: none;
+  
+  }
+  .cl:hover{
+    color: aliceblue;
+    background: none;
+    font-size: large;
+  }
+  .lgbtn{ 
+    background: none;
+    color: black;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+.lgbtn:hover{
+    background: none;
+    color: black;
+}
+
+@media (max-width: 480px) {
+ .ushome{
+   display: flex;
+   
+ 
+
+  }
+}

@@ -1,0 +1,74 @@
+.bll {
+    background-image: linear-gradient(to top, rgb(2, 2, 62), rgb(11, 11, 184));
+
+    min-height: 100vh; 
+    height: auto;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.complform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.prpic {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+.send {
+    background: none;
+    outline: solid grey;
+    color: black;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.send:hover {
+    background-color: black;
+    color: white;
+}
+
+/* .newdiv {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+} */
+
+.newdiv{
+    margin-top: 20px;
+    width: 100%;
+   
+}
+.complaint-box{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.complaint-div{
+   
+}
+    

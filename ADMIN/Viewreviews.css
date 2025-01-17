@@ -1,0 +1,64 @@
+.viewreviews {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(2, 2, 62), rgb(11, 11, 184));
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.base {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of elements */
+    gap: 20px; /* Adds space between the forms */
+    justify-content: center; /* Centers items horizontally */
+    align-items: flex-start; /* Aligns items at the top */
+    width: 100%; /* Makes the container take full width */
+    max-width: 1200px; /* Optional: limits the container width */
+}
+
+.viewreviewsform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%; /* Adjust width to fit 4 forms in a row */
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+
+.gmi {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.review-container {
+    text-align: left; /* Aligns text to the left */
+    width: 100%;
+}
+
+.rating,
+.review {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-bottom: 5px;
+}
