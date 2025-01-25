@@ -1,0 +1,77 @@
+.managesession{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto;
+}
+.sessiontbl{
+    text-align: left;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    word-wrap: break-word;
+    width: 100%;
+    height: auto;
+}
+.sessiontbl th, .sessiontbl td {
+    text-align: left;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    word-wrap: break-word;
+    width: 200px;
+    max-width: 200px;
+}
+.addsession{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+
+}
+.addsessionbtn{
+    background-color: #4d4d4d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editsessionbtn{
+    background-color: #4d4d4d;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deletessessionbtn{
+    background-color: #4d4d4d;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+.addsessionbtn:hover{
+    background-color: #333;
+}
+.editsessionbtn:hover{
+    background-color: #333;
+}
+.deletessessionbtn:hover{
+    background-color: #333;
+}

@@ -1,0 +1,86 @@
+
+.add-session-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+.rew {
+    background-color: #4d4d4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+
+.div input {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.div input:hover {
+    border-color: #007bff;
+}
+.div label{
+    color: white;
+}
+
+.grd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.lfr,
+.rto {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.lfr input,
+.rto input {
+   
+    border-radius: 20px;
+    width: 90%;
+    height: 40px;
+    
+}
+
+
+.div1 {
+    margin-top: 20px;
+   
+}
+.jjj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bk {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bk:hover {
+    background-color: black;
+}

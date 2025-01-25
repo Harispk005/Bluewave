@@ -1,0 +1,14 @@
+.overview{
+    display: flex;
+   text-align: center;
+   justify-content: flex-start;
+   align-items: center;
+   
+}
+.overviewhd{
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 300px;
+    color: rgb(40, 36, 36);
+}
+

@@ -1,0 +1,29 @@
+.change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.changecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 60vh;
+    width: 350px;
+    border-radius: 10px;
+}
+.passbtn{
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border-radius: 20px;
+  background-color: black;
+}
+.passbtn:hover{
+  background-color: black;
+
+}
+
+

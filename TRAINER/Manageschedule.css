@@ -1,0 +1,53 @@
+.manageschedule{
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto;
+}
+.scheduleheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+.bookingtable{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.bookingtable th, .bookingtable td {
+    text-align: left;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+.accept{
+    background-color: whitesmoke;
+    color: green;
+    border-radius: 20px;
+   
+}
+.decline{
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.accept:hover{
+    background-color: green;
+    color: white;
+}
+.decline:hover{
+    background-color: red;
+    color: white;
+}

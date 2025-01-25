@@ -1,0 +1,25 @@
+.viewtrainerbookings{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ; 
+    justify-content: start;
+    
+   
+}
+.viewtrainerbookingscontainer{
+    background-color: #272838;
+    height: auto;
+    width: 23vw;
+    max-height: 80vh;
+    max-width: auto;
+    color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.viewtrainerbookingsdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}

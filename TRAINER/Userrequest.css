@@ -1,0 +1,92 @@
+.userrequest{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+}
+.userrequestcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:whitesmoke ;
+    color: white;
+    height: 20vh;
+    max-height:20vh;
+    width: 460px;
+    max-width: 460px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.userrequestcarddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    margin-top: 20px;
+}
+.opp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+.userrequestcarddiv2{
+    color: black;
+}
+.nm{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+.userrequestcarddiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Chat{
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.Chat:hover{
+    background-color: grey;
+    color: aliceblue;
+}
+.act{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: green;
+    border: none;
+    border-radius: 20px;
+}
+.dct{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.act:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.dct:hover{
+    background-color: red;
+    color: aliceblue;
+}

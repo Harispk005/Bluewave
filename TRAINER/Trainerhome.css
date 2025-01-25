@@ -1,0 +1,64 @@
+.trainerhome {
+    display: grid;
+    grid-template-columns: 20% 80%; /* Adjust the column proportions */
+    background-image: linear-gradient(to bottom, #5b666b, #ffffff);
+    height: 100vh;
+    width: 100%;
+    max-height: auto;
+    max-width: auto;
+  }
+  
+  .left {
+    height: 100vh;
+    width: 100%; 
+    background-color: #272838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+  }
+  
+  .brandhd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 80px;
+    color: white;
+    font-family: copperplate gothic, papyrus, fantasy;
+  }
+  
+  .center {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .center:hover {
+    background-color: black;
+    color: white;
+  }
+  
+ 
+  .right {
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+    background-image:linear-gradient(to bottom, #5b666b, #ffffff) ;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto;
+  }
+  
